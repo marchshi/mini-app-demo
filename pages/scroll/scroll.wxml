@@ -1,0 +1,9 @@
+<view class="index-container">
+  <view class="box">
+    <block wx:for="{{dataList}}" wx:key="unique">
+      <view class="item">
+        {{item.name}}
+      </view>
+    </block>
+  </view>
+</view>
