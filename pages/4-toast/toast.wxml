@@ -1,0 +1,19 @@
+<view class="container">
+  <view class="textContainer">
+    <text class="textStyle" bind:tap="toast1" >1,toast-1</text>
+    <text class="textStyle" bind:tap="toast2" >1,toast-2</text>
+    <text class="textStyle" bind:tap="toast3" >1,toast-3</text>
+    <text class="textStyle" bind:tap="toast4" >1,toast-4</text>
+    <text class="textStyle" bind:tap="toast5" >1,toast-5</text>
+
+    <text class="textStyle" bind:tap="loading1" >2,loading-1</text>
+    <text class="textStyle" bind:tap="loading2" >2,loading-2</text>
+
+    <text class="textStyle" bind:tap="modal1" >3,modal1</text>
+    <text class="textStyle" bind:tap="modal2" >3,modal2</text>
+
+    <text class="textStyle" bind:tap="actionSheet1" >4,actionSheet1</text>
+
+    <text bind:tap="hide" >隐藏loading</text>
+  </view>
+</view>

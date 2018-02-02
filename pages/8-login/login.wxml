@@ -1,0 +1,13 @@
+<view class="container">
+  <view class="textContainer">
+    <text class="textStyle" bindtap="login">wx.login</text>
+    <text class="textStyle" bindtap="testNode">测试node</text>
+
+    <text class="textStyle" bindtap="silence">静默授权-网页</text>
+
+    <navigator url="/pages/login/login" open-type="navigate">6,登录相关</navigator>
+
+    <image mode='widthFix' src="{{imageCodeUrl}}" bindtap='imageTap' bindload='imageload'/>
+
+  </view>
+</view>

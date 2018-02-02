@@ -1,0 +1,10 @@
+<view class="container">
+  <view class="textContainer">
+    <text class="textStyle" bindtap="newAuth">**新的授权方式-定位**</text>
+    <text class="textStyle" bindtap="wrapperAuth">**封装后的授权方式-定位**</text>
+    <text class="textStyle" bindtap="getUserInfo">**封装后的授权方式-用户信息**</text>
+    <text class="textStyle" bindtap="getAuth">获取权限 scope.userLocation</text>
+    <text class="textStyle" bindtap="openSetting">打开权限授权列表</text>
+    <text class="textStyle" bindtap="openMap">{{text}}</text>
+  </view>
+</view>

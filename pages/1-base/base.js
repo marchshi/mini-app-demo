@@ -9,12 +9,7 @@ Page({
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
     dataList:["1","2","3"],
-},
-  //事件处理函数
-  bindViewTap: function() {
-    wx.navigateTo({
-      url: '../logs/logs'
-    })
+    login:true,
   },
   onLoad: function () {
 
@@ -57,18 +52,7 @@ Page({
     })
   },
 
-  onClick:function(e){
-    console.log(e)
-    //跳转至logs页面
-    wx.navigateTo({
-      url: '/pages/logs/logs'
-    })
-  
-  },
   back:function(){
       wx.navigateBack()
   },
-
-
-
 })

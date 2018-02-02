@@ -1,0 +1,7 @@
+<view class="container">
+  <view class="textContainer">
+    <text class="textStyle">{{text}}</text>
+    <web-view src="{{url}}"></web-view>
+    <web-view src="https://bmcwxtest.bm001.com/D1234#/"></web-view>
+  </view>
+</view>

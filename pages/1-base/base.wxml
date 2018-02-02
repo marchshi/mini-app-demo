@@ -1,0 +1,37 @@
+<view class="container">
+  <view wx:for="{{dataList}}" wx:key="unique">
+    {{index}}:{{item}}
+  </view>
+  <view class="row" wx:for="{{[1,2,3,4,5]}}" wx:for-item="i" wx:key="unique">
+    <view wx:for="{{[1,2,3,4,5]}}" wx:for-item="j" wx:key="unique">
+      <view wx:if="{{ j <= i }}" >
+        {{i}} * {{j}} = {{ i * j }}
+      </view>
+    </view>
+  </view>
+  <scroll-view  scroll-y="true" style="height: 100rpx;" >
+      <view>
+        第一頁
+      </view>
+      <view>
+        第二頁
+      </view>
+      <view>
+        第三頁
+      </view>
+      <view>
+        第四頁
+      </view>
+    </scroll-view>
+  <template name="smq">
+    <view>
+        我的梦想是：{{ dream }}
+      </view>
+  </template>
+  <template is="smq" data="{{dream : 111 }}" />
+  <button  open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">aaa </button>
+  <text class="user-motto">{{motto}}</text>
+  <button wx:if="{{login}}">1111111111111</button>
+  <view wx:else="">222222222222222</view>
+
+</view>

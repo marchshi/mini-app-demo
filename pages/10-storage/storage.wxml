@@ -1,0 +1,9 @@
+<view class="container">
+  <view class="textContainer">
+    <text class="textStyle" bindtap="bindset">将数据保存到storage中</text>
+    <text class="textStyle" bindtap="bindget">从storage中取数据</text>
+
+    <text class="textStyle" bindtap="setObjectTap">保存js对象</text>
+    <text class="textStyle" bindtap="getObjectTap">取js对象</text>
+  </view>
+</view>

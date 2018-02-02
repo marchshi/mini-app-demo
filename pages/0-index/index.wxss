@@ -1,0 +1,5 @@
+/**index.wxss**/
+.container navigator{
+  font-size: 40rpx ;
+  padding: 10rpx 50rpx ;
+}

@@ -1,8 +1,16 @@
 {
   "pages":[
-    "pages/index/index",
-    "pages/logs/logs",
-    "pages/scroll/scroll"
+    "pages/0-index/index",
+    "pages/1-base/base",
+    "pages/2-pageStack/pageStack",
+    "pages/3-scroll/scroll",
+    "pages/4-toast/toast",
+    "pages/5-picker/picker",
+    "pages/6-map/map",
+    "pages/7-camera/camera",
+    "pages/8-login/login",
+    "pages/9-web-view/web-view",
+    "pages/10-storage/storage"
   ],
   "window":{
     "backgroundColor": "#eee",

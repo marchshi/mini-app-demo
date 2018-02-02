@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<view class="container">
+
+  <navigator url="/pages/1-base/base" open-type="navigate">1-base 小程序基本语法*</navigator>
+  
+  <navigator url="/pages/2-pageStack/pageStack" open-type="navigate">2-pageStack 页面栈*</navigator>
+
+  <navigator url="/pages/3-scroll/scroll" open-type="navigate">3-scroll 上下拉滑动刷新</navigator>
+
+  <navigator url="/pages/4-toast/toast" open-type="navigate">4-toast 提示及用户交互</navigator>
+
+  <navigator url="/pages/5-picker/picker" open-type="navigate">5-picker 选择器</navigator>
+
+  <navigator url="/pages/6-map/map" open-type="navigate">6-map 地图及相关权限</navigator>
+
+  <navigator url="/pages/7-camera/camera" open-type="navigate">7-camera 相机</navigator>
+
+  <navigator url="/pages/8-login/login" open-type="navigate">8-login 登录相关*</navigator>
+
+  <navigator url="/pages/9-web-view/web-view" open-type="navigate">9-web-view 内嵌网页(个人版不支持)*</navigator>
+
+  <navigator url="/pages/10-storage/storage" open-type="navigate">10-storage 存储数据*</navigator>
+  
+</view>
