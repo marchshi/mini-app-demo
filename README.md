@@ -1,2 +1,2 @@
 # mini-app-demo
-初学微信小程序练习用的demo
+微信小程序常用功能的demo
